@@ -1,0 +1,40 @@
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #eee; 
+    padding: 10px; 
+    display: flex; 
+    flex-direction: column; 
+  }
+  
+ 
+  .sidebar button {
+    background-color: rgb(11, 129, 184); 
+    border: none; 
+    padding: 70px 20px;
+    margin-bottom: 5px; 
+    cursor: pointer; 
+    color: white;
+    font-size: 20px;
+    text-align: left; 
+  }
+  
+ 
+  .sidebar button:hover {
+    background-color: rgb(5, 79, 113); 
+  }
+  a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+ 
+  .main-content {
+    margin-left: 200px;
+    padding: 20px; 
+   
+  }
+  
